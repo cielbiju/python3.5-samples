@@ -1,0 +1,493 @@
+Python 3.5.2 (v3.5.2:4def2a2901a5, Jun 25 2016, 22:01:18) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: D:\Dropbox\kkim@dropbox\My Development\my server programs\webserver.py 
+starting http server..
+192.168.1.80 - - [15/Aug/2016 02:53:55] "GET /logone?user=9124&serial=26&temperature=28.8125 HTTP/1.1" 200 -
+('192.168.1.80', 1271)
+GET /logone?user=9124&serial=26&temperature=28.8125 HTTP/1.1
+/logone?user=9124&serial=26&temperature=28.8125
+192.168.1.82 - - [15/Aug/2016 02:53:59] "GET /logone?user=9122&serial=59&temperature=28.5000 HTTP/1.1" 200 -
+('192.168.1.82', 37314)
+GET /logone?user=9122&serial=59&temperature=28.5000 HTTP/1.1
+/logone?user=9122&serial=59&temperature=28.5000
+192.168.1.39 - - [15/Aug/2016 02:54:18] "GET /logone?user=9121&serial=22&temperature=29.5625 HTTP/1.1" 200 -
+('192.168.1.39', 43323)
+GET /logone?user=9121&serial=22&temperature=29.5625 HTTP/1.1
+/logone?user=9121&serial=22&temperature=29.5625
+192.168.1.81 - - [15/Aug/2016 02:54:32] "GET /logone?user=9123&serial=30&temperature=28.6875 HTTP/1.1" 200 -
+('192.168.1.81', 23375)
+GET /logone?user=9123&serial=30&temperature=28.6875 HTTP/1.1
+/logone?user=9123&serial=30&temperature=28.6875
+192.168.1.80 - - [15/Aug/2016 02:54:45] "GET /logone?user=9124&serial=27&temperature=28.8125 HTTP/1.1" 200 -
+('192.168.1.80', 23088)
+GET /logone?user=9124&serial=27&temperature=28.8125 HTTP/1.1
+/logone?user=9124&serial=27&temperature=28.8125
+192.168.1.82 - - [15/Aug/2016 02:54:49] "GET /logone?user=9122&serial=60&temperature=28.5625 HTTP/1.1" 200 -
+('192.168.1.82', 39782)
+GET /logone?user=9122&serial=60&temperature=28.5625 HTTP/1.1
+/logone?user=9122&serial=60&temperature=28.5625
+192.168.1.39 - - [15/Aug/2016 02:55:08] "GET /logone?user=9121&serial=23&temperature=29.00 HTTP/1.1" 200 -
+('192.168.1.39', 7766)
+GET /logone?user=9121&serial=23&temperature=29.00 HTTP/1.1
+/logone?user=9121&serial=23&temperature=29.00
+192.168.1.81 - - [15/Aug/2016 02:55:22] "GET /logone?user=9123&serial=31&temperature=28.7500 HTTP/1.1" 200 -
+('192.168.1.81', 15539)
+GET /logone?user=9123&serial=31&temperature=28.7500 HTTP/1.1
+/logone?user=9123&serial=31&temperature=28.7500
+192.168.1.80 - - [15/Aug/2016 02:55:35] "GET /logone?user=9124&serial=28&temperature=28.8125 HTTP/1.1" 200 -
+('192.168.1.80', 43469)
+GET /logone?user=9124&serial=28&temperature=28.8125 HTTP/1.1
+/logone?user=9124&serial=28&temperature=28.8125
+192.168.1.82 - - [15/Aug/2016 02:55:39] "GET /logone?user=9122&serial=61&temperature=28.5625 HTTP/1.1" 200 -
+('192.168.1.82', 17741)
+GET /logone?user=9122&serial=61&temperature=28.5625 HTTP/1.1
+/logone?user=9122&serial=61&temperature=28.5625
+192.168.1.39 - - [15/Aug/2016 02:55:58] "GET /logone?user=9121&serial=24&temperature=28.7500 HTTP/1.1" 200 -
+('192.168.1.39', 42171)
+GET /logone?user=9121&serial=24&temperature=28.7500 HTTP/1.1
+/logone?user=9121&serial=24&temperature=28.7500
+192.168.1.81 - - [15/Aug/2016 02:56:12] "GET /logone?user=9123&serial=32&temperature=28.6875 HTTP/1.1" 200 -
+('192.168.1.81', 39941)
+GET /logone?user=9123&serial=32&temperature=28.6875 HTTP/1.1
+/logone?user=9123&serial=32&temperature=28.6875
+192.168.1.80 - - [15/Aug/2016 02:56:25] "GET /logone?user=9124&serial=29&temperature=28.7500 HTTP/1.1" 200 -
+('192.168.1.80', 12402)
+GET /logone?user=9124&serial=29&temperature=28.7500 HTTP/1.1
+/logone?user=9124&serial=29&temperature=28.7500
+192.168.1.82 - - [15/Aug/2016 02:56:29] "GET /logone?user=9122&serial=62&temperature=28.4375 HTTP/1.1" 200 -
+('192.168.1.82', 12081)
+GET /logone?user=9122&serial=62&temperature=28.4375 HTTP/1.1
+/logone?user=9122&serial=62&temperature=28.4375
+192.168.1.39 - - [15/Aug/2016 02:56:48] "GET /logone?user=9121&serial=25&temperature=28.5625 HTTP/1.1" 200 -
+('192.168.1.39', 22678)
+GET /logone?user=9121&serial=25&temperature=28.5625 HTTP/1.1
+/logone?user=9121&serial=25&temperature=28.5625
+192.168.1.81 - - [15/Aug/2016 02:57:02] "GET /logone?user=9123&serial=33&temperature=28.7500 HTTP/1.1" 200 -
+('192.168.1.81', 47472)
+GET /logone?user=9123&serial=33&temperature=28.7500 HTTP/1.1
+/logone?user=9123&serial=33&temperature=28.7500
+192.168.1.80 - - [15/Aug/2016 02:57:15] "GET /logone?user=9124&serial=30&temperature=28.9375 HTTP/1.1" 200 -
+('192.168.1.80', 14371)
+GET /logone?user=9124&serial=30&temperature=28.9375 HTTP/1.1
+/logone?user=9124&serial=30&temperature=28.9375
+192.168.1.82 - - [15/Aug/2016 02:57:19] "GET /logone?user=9122&serial=63&temperature=28.6250 HTTP/1.1" 200 -
+('192.168.1.82', 7577)
+GET /logone?user=9122&serial=63&temperature=28.6250 HTTP/1.1
+/logone?user=9122&serial=63&temperature=28.6250
+192.168.1.39 - - [15/Aug/2016 02:57:38] "GET /logone?user=9121&serial=26&temperature=28.6250 HTTP/1.1" 200 -
+('192.168.1.39', 16450)
+GET /logone?user=9121&serial=26&temperature=28.6250 HTTP/1.1
+/logone?user=9121&serial=26&temperature=28.6250
+192.168.1.81 - - [15/Aug/2016 02:57:52] "GET /logone?user=9123&serial=34&temperature=28.9375 HTTP/1.1" 200 -
+('192.168.1.81', 2999)
+GET /logone?user=9123&serial=34&temperature=28.9375 HTTP/1.1
+/logone?user=9123&serial=34&temperature=28.9375
+192.168.1.80 - - [15/Aug/2016 02:58:05] "GET /logone?user=9124&serial=31&temperature=29.1875 HTTP/1.1" 200 -
+('192.168.1.80', 41137)
+GET /logone?user=9124&serial=31&temperature=29.1875 HTTP/1.1
+/logone?user=9124&serial=31&temperature=29.1875
+192.168.1.82 - - [15/Aug/2016 02:58:09] "GET /logone?user=9122&serial=64&temperature=28.7500 HTTP/1.1" 200 -
+('192.168.1.82', 24091)
+GET /logone?user=9122&serial=64&temperature=28.7500 HTTP/1.1
+/logone?user=9122&serial=64&temperature=28.7500
+192.168.1.39 - - [15/Aug/2016 02:58:28] "GET /logone?user=9121&serial=27&temperature=28.7500 HTTP/1.1" 200 -
+('192.168.1.39', 5130)
+GET /logone?user=9121&serial=27&temperature=28.7500 HTTP/1.1
+/logone?user=9121&serial=27&temperature=28.7500
+192.168.1.81 - - [15/Aug/2016 02:58:42] "GET /logone?user=9123&serial=35&temperature=29.1250 HTTP/1.1" 200 -
+('192.168.1.81', 5723)
+GET /logone?user=9123&serial=35&temperature=29.1250 HTTP/1.1
+/logone?user=9123&serial=35&temperature=29.1250
+192.168.1.80 - - [15/Aug/2016 02:58:55] "GET /logone?user=9124&serial=32&temperature=29.3750 HTTP/1.1" 200 -
+('192.168.1.80', 39387)
+GET /logone?user=9124&serial=32&temperature=29.3750 HTTP/1.1
+/logone?user=9124&serial=32&temperature=29.3750
+192.168.1.82 - - [15/Aug/2016 02:58:59] "GET /logone?user=9122&serial=65&temperature=28.9375 HTTP/1.1" 200 -
+('192.168.1.82', 13751)
+GET /logone?user=9122&serial=65&temperature=28.9375 HTTP/1.1
+/logone?user=9122&serial=65&temperature=28.9375
+192.168.1.39 - - [15/Aug/2016 02:59:18] "GET /logone?user=9121&serial=28&temperature=28.8750 HTTP/1.1" 200 -
+('192.168.1.39', 9217)
+GET /logone?user=9121&serial=28&temperature=28.8750 HTTP/1.1
+/logone?user=9121&serial=28&temperature=28.8750
+192.168.1.81 - - [15/Aug/2016 02:59:32] "GET /logone?user=9123&serial=36&temperature=29.2500 HTTP/1.1" 200 -
+('192.168.1.81', 5183)
+GET /logone?user=9123&serial=36&temperature=29.2500 HTTP/1.1
+/logone?user=9123&serial=36&temperature=29.2500
+192.168.1.80 - - [15/Aug/2016 02:59:45] "GET /logone?user=9124&serial=33&temperature=29.5000 HTTP/1.1" 200 -
+('192.168.1.80', 46247)
+GET /logone?user=9124&serial=33&temperature=29.5000 HTTP/1.1
+/logone?user=9124&serial=33&temperature=29.5000
+192.168.1.82 - - [15/Aug/2016 02:59:49] "GET /logone?user=9122&serial=66&temperature=29.00 HTTP/1.1" 200 -
+('192.168.1.82', 2624)
+GET /logone?user=9122&serial=66&temperature=29.00 HTTP/1.1
+/logone?user=9122&serial=66&temperature=29.00
+192.168.1.81 - - [15/Aug/2016 10:20:15] "GET /logone?user=9123&serial=1&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 30719)
+GET /logone?user=9123&serial=1&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=1&temperature=30.5625
+192.168.1.39 - - [15/Aug/2016 10:20:16] "GET /logone?user=9121&serial=1&temperature=30.1250 HTTP/1.1" 200 -
+('192.168.1.39', 37456)
+GET /logone?user=9121&serial=1&temperature=30.1250 HTTP/1.1
+/logone?user=9121&serial=1&temperature=30.1250
+192.168.1.81 - - [15/Aug/2016 10:20:17] "GET /logone?user=9123&serial=2&temperature=30.5000 HTTP/1.1" 200 -
+('192.168.1.81', 27433)
+GET /logone?user=9123&serial=2&temperature=30.5000 HTTP/1.1
+/logone?user=9123&serial=2&temperature=30.5000
+192.168.1.39 - - [15/Aug/2016 10:20:18] "GET /logone?user=9121&serial=2&temperature=30.1250 HTTP/1.1" 200 -
+('192.168.1.39', 2709)
+GET /logone?user=9121&serial=2&temperature=30.1250 HTTP/1.1
+/logone?user=9121&serial=2&temperature=30.1250
+192.168.1.81 - - [15/Aug/2016 10:20:19] "GET /logone?user=9123&serial=3&temperature=30.5000 HTTP/1.1" 200 -
+('192.168.1.81', 1200)
+GET /logone?user=9123&serial=3&temperature=30.5000 HTTP/1.1
+/logone?user=9123&serial=3&temperature=30.5000
+192.168.1.39 - - [15/Aug/2016 10:20:20] "GET /logone?user=9121&serial=3&temperature=30.1250 HTTP/1.1" 200 -
+('192.168.1.39', 35179)
+GET /logone?user=9121&serial=3&temperature=30.1250 HTTP/1.1
+/logone?user=9121&serial=3&temperature=30.1250
+192.168.1.81 - - [15/Aug/2016 10:20:21] "GET /logone?user=9123&serial=4&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 14273)
+GET /logone?user=9123&serial=4&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=4&temperature=30.5625
+192.168.1.39 - - [15/Aug/2016 10:20:22] "GET /logone?user=9121&serial=4&temperature=30.1250 HTTP/1.1" 200 -
+('192.168.1.39', 41715)
+GET /logone?user=9121&serial=4&temperature=30.1250 HTTP/1.1
+/logone?user=9121&serial=4&temperature=30.1250
+192.168.1.81 - - [15/Aug/2016 10:20:23] "GET /logone?user=9123&serial=5&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 22055)
+GET /logone?user=9123&serial=5&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=5&temperature=30.5625
+192.168.1.39 - - [15/Aug/2016 10:20:24] "GET /logone?user=9121&serial=5&temperature=30.1250 HTTP/1.1" 200 -
+('192.168.1.39', 11202)
+GET /logone?user=9121&serial=5&temperature=30.1250 HTTP/1.1
+/logone?user=9121&serial=5&temperature=30.1250
+192.168.1.81 - - [15/Aug/2016 10:20:26] "GET /logone?user=9123&serial=6&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 12593)
+GET /logone?user=9123&serial=6&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=6&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:26] "GET /logone?user=9122&serial=1&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 17949)
+GET /logone?user=9122&serial=1&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=1&temperature=30.2500
+192.168.1.39 - - [15/Aug/2016 10:20:27] "GET /logone?user=9121&serial=6&temperature=30.1250 HTTP/1.1" 200 -
+('192.168.1.39', 11333)
+GET /logone?user=9121&serial=6&temperature=30.1250 HTTP/1.1
+/logone?user=9121&serial=6&temperature=30.1250
+192.168.1.81 - - [15/Aug/2016 10:20:28] "GET /logone?user=9123&serial=7&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 12387)
+GET /logone?user=9123&serial=7&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=7&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:28] "GET /logone?user=9122&serial=2&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 32855)
+GET /logone?user=9122&serial=2&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=2&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:28] "GET /logone?user=9124&serial=1&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 29596)
+GET /logone?user=9124&serial=1&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=1&temperature=31.00
+192.168.1.39 - - [15/Aug/2016 10:20:29] "GET /logone?user=9121&serial=7&temperature=30.1250 HTTP/1.1" 200 -
+('192.168.1.39', 31489)
+GET /logone?user=9121&serial=7&temperature=30.1250 HTTP/1.1
+/logone?user=9121&serial=7&temperature=30.1250
+192.168.1.81 - - [15/Aug/2016 10:20:30] "GET /logone?user=9123&serial=8&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 1933)
+GET /logone?user=9123&serial=8&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=8&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:30] "GET /logone?user=9122&serial=3&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 48791)
+GET /logone?user=9122&serial=3&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=3&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:30] "GET /logone?user=9124&serial=2&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 25855)
+GET /logone?user=9124&serial=2&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=2&temperature=31.00
+192.168.1.39 - - [15/Aug/2016 10:20:31] "GET /logone?user=9121&serial=8&temperature=30.1250 HTTP/1.1" 200 -
+('192.168.1.39', 37689)
+GET /logone?user=9121&serial=8&temperature=30.1250 HTTP/1.1
+/logone?user=9121&serial=8&temperature=30.1250
+192.168.1.81 - - [15/Aug/2016 10:20:32] "GET /logone?user=9123&serial=9&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 44202)
+GET /logone?user=9123&serial=9&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=9&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:32] "GET /logone?user=9122&serial=4&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 41625)
+GET /logone?user=9122&serial=4&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=4&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:32] "GET /logone?user=9124&serial=3&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 39743)
+GET /logone?user=9124&serial=3&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=3&temperature=31.00
+192.168.1.39 - - [15/Aug/2016 10:20:33] "GET /logone?user=9121&serial=9&temperature=30.1250 HTTP/1.1" 200 -
+('192.168.1.39', 33397)
+GET /logone?user=9121&serial=9&temperature=30.1250 HTTP/1.1
+/logone?user=9121&serial=9&temperature=30.1250
+192.168.1.81 - - [15/Aug/2016 10:20:34] "GET /logone?user=9123&serial=10&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 23960)
+GET /logone?user=9123&serial=10&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=10&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:34] "GET /logone?user=9122&serial=5&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 34239)
+GET /logone?user=9122&serial=5&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=5&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:34] "GET /logone?user=9124&serial=4&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 21667)
+GET /logone?user=9124&serial=4&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=4&temperature=31.00
+192.168.1.39 - - [15/Aug/2016 10:20:35] "GET /logone?user=9121&serial=10&temperature=30.1250 HTTP/1.1" 200 -
+('192.168.1.39', 38051)
+GET /logone?user=9121&serial=10&temperature=30.1250 HTTP/1.1
+/logone?user=9121&serial=10&temperature=30.1250
+192.168.1.81 - - [15/Aug/2016 10:20:36] "GET /logone?user=9123&serial=11&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 41145)
+GET /logone?user=9123&serial=11&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=11&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:36] "GET /logone?user=9122&serial=6&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 23294)
+GET /logone?user=9122&serial=6&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=6&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:36] "GET /logone?user=9124&serial=5&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 14873)
+GET /logone?user=9124&serial=5&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=5&temperature=31.00
+192.168.1.39 - - [15/Aug/2016 10:20:37] "GET /logone?user=9121&serial=11&temperature=30.1875 HTTP/1.1" 200 -
+('192.168.1.39', 22764)
+GET /logone?user=9121&serial=11&temperature=30.1875 HTTP/1.1
+/logone?user=9121&serial=11&temperature=30.1875
+192.168.1.81 - - [15/Aug/2016 10:20:38] "GET /logone?user=9123&serial=12&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 41892)
+GET /logone?user=9123&serial=12&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=12&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:38] "GET /logone?user=9122&serial=7&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 4573)
+GET /logone?user=9122&serial=7&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=7&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:39] "GET /logone?user=9124&serial=6&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 39962)
+GET /logone?user=9124&serial=6&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=6&temperature=31.00
+192.168.1.39 - - [15/Aug/2016 10:20:39] "GET /logone?user=9121&serial=12&temperature=30.1875 HTTP/1.1" 200 -
+('192.168.1.39', 3700)
+GET /logone?user=9121&serial=12&temperature=30.1875 HTTP/1.1
+/logone?user=9121&serial=12&temperature=30.1875
+192.168.1.81 - - [15/Aug/2016 10:20:40] "GET /logone?user=9123&serial=13&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 49590)
+GET /logone?user=9123&serial=13&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=13&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:41] "GET /logone?user=9122&serial=8&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 4810)
+GET /logone?user=9122&serial=8&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=8&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:41] "GET /logone?user=9124&serial=7&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 1705)
+GET /logone?user=9124&serial=7&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=7&temperature=31.00
+192.168.1.39 - - [15/Aug/2016 10:20:41] "GET /logone?user=9121&serial=13&temperature=30.1875 HTTP/1.1" 200 -
+('192.168.1.39', 42691)
+GET /logone?user=9121&serial=13&temperature=30.1875 HTTP/1.1
+/logone?user=9121&serial=13&temperature=30.1875
+192.168.1.81 - - [15/Aug/2016 10:20:42] "GET /logone?user=9123&serial=14&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 47422)
+GET /logone?user=9123&serial=14&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=14&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:43] "GET /logone?user=9122&serial=9&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 14134)
+GET /logone?user=9122&serial=9&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=9&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:43] "GET /logone?user=9124&serial=8&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 45986)
+GET /logone?user=9124&serial=8&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=8&temperature=31.00
+192.168.1.39 - - [15/Aug/2016 10:20:43] "GET /logone?user=9121&serial=14&temperature=30.1875 HTTP/1.1" 200 -
+('192.168.1.39', 46797)
+GET /logone?user=9121&serial=14&temperature=30.1875 HTTP/1.1
+/logone?user=9121&serial=14&temperature=30.1875
+192.168.1.81 - - [15/Aug/2016 10:20:44] "GET /logone?user=9123&serial=15&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 22483)
+GET /logone?user=9123&serial=15&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=15&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:45] "GET /logone?user=9122&serial=10&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 20462)
+GET /logone?user=9122&serial=10&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=10&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:45] "GET /logone?user=9124&serial=9&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 27750)
+GET /logone?user=9124&serial=9&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=9&temperature=31.00
+192.168.1.39 - - [15/Aug/2016 10:20:45] "GET /logone?user=9121&serial=15&temperature=30.1875 HTTP/1.1" 200 -
+('192.168.1.39', 35724)
+GET /logone?user=9121&serial=15&temperature=30.1875 HTTP/1.1
+/logone?user=9121&serial=15&temperature=30.1875
+192.168.1.81 - - [15/Aug/2016 10:20:46] "GET /logone?user=9123&serial=16&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 1578)
+GET /logone?user=9123&serial=16&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=16&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:47] "GET /logone?user=9122&serial=11&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 6500)
+GET /logone?user=9122&serial=11&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=11&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:47] "GET /logone?user=9124&serial=10&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 17451)
+GET /logone?user=9124&serial=10&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=10&temperature=31.00
+192.168.1.39 - - [15/Aug/2016 10:20:47] "GET /logone?user=9121&serial=16&temperature=30.1875 HTTP/1.1" 200 -
+('192.168.1.39', 33718)
+GET /logone?user=9121&serial=16&temperature=30.1875 HTTP/1.1
+/logone?user=9121&serial=16&temperature=30.1875
+192.168.1.81 - - [15/Aug/2016 10:20:48] "GET /logone?user=9123&serial=17&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 39318)
+GET /logone?user=9123&serial=17&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=17&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:49] "GET /logone?user=9122&serial=12&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 1601)
+GET /logone?user=9122&serial=12&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=12&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:49] "GET /logone?user=9124&serial=11&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 13206)
+GET /logone?user=9124&serial=11&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=11&temperature=31.00
+192.168.1.39 - - [15/Aug/2016 10:20:49] "GET /logone?user=9121&serial=17&temperature=30.1875 HTTP/1.1" 200 -
+('192.168.1.39', 42231)
+GET /logone?user=9121&serial=17&temperature=30.1875 HTTP/1.1
+/logone?user=9121&serial=17&temperature=30.1875
+192.168.1.81 - - [15/Aug/2016 10:20:51] "GET /logone?user=9123&serial=18&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 49483)
+GET /logone?user=9123&serial=18&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=18&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:51] "GET /logone?user=9122&serial=13&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 16127)
+GET /logone?user=9122&serial=13&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=13&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:51] "GET /logone?user=9124&serial=12&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 26560)
+GET /logone?user=9124&serial=12&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=12&temperature=31.00
+192.168.1.39 - - [15/Aug/2016 10:20:52] "GET /logone?user=9121&serial=18&temperature=30.1250 HTTP/1.1" 200 -
+('192.168.1.39', 38393)
+GET /logone?user=9121&serial=18&temperature=30.1250 HTTP/1.1
+/logone?user=9121&serial=18&temperature=30.1250
+192.168.1.81 - - [15/Aug/2016 10:20:53] "GET /logone?user=9123&serial=19&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 10419)
+GET /logone?user=9123&serial=19&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=19&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:53] "GET /logone?user=9122&serial=14&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 48268)
+GET /logone?user=9122&serial=14&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=14&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:53] "GET /logone?user=9124&serial=13&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 43932)
+GET /logone?user=9124&serial=13&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=13&temperature=31.00
+192.168.1.39 - - [15/Aug/2016 10:20:54] "GET /logone?user=9121&serial=19&temperature=30.1250 HTTP/1.1" 200 -
+('192.168.1.39', 23918)
+GET /logone?user=9121&serial=19&temperature=30.1250 HTTP/1.1
+/logone?user=9121&serial=19&temperature=30.1250
+192.168.1.81 - - [15/Aug/2016 10:20:55] "GET /logone?user=9123&serial=20&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 1336)
+GET /logone?user=9123&serial=20&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=20&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:55] "GET /logone?user=9122&serial=15&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 37459)
+GET /logone?user=9122&serial=15&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=15&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:55] "GET /logone?user=9124&serial=14&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 17782)
+GET /logone?user=9124&serial=14&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=14&temperature=31.00
+192.168.1.39 - - [15/Aug/2016 10:20:56] "GET /logone?user=9121&serial=20&temperature=30.1875 HTTP/1.1" 200 -
+('192.168.1.39', 10809)
+GET /logone?user=9121&serial=20&temperature=30.1875 HTTP/1.1
+/logone?user=9121&serial=20&temperature=30.1875
+192.168.1.81 - - [15/Aug/2016 10:20:57] "GET /logone?user=9123&serial=21&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 28685)
+GET /logone?user=9123&serial=21&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=21&temperature=30.5625
+192.168.1.82 - - [15/Aug/2016 10:20:57] "GET /logone?user=9122&serial=16&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 1526)
+GET /logone?user=9122&serial=16&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=16&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:57] "GET /logone?user=9124&serial=15&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 38252)
+GET /logone?user=9124&serial=15&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=15&temperature=31.00
+192.168.1.39 - - [15/Aug/2016 10:20:58] "GET /logone?user=9121&serial=21&temperature=30.1875 HTTP/1.1" 200 -
+('192.168.1.39', 12514)
+GET /logone?user=9121&serial=21&temperature=30.1875 HTTP/1.1
+/logone?user=9121&serial=21&temperature=30.1875
+192.168.1.82 - - [15/Aug/2016 10:20:59] "GET /logone?user=9122&serial=17&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 32020)
+GET /logone?user=9122&serial=17&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=17&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:20:59] "GET /logone?user=9124&serial=16&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 34315)
+GET /logone?user=9124&serial=16&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=16&temperature=31.00
+192.168.1.82 - - [15/Aug/2016 10:21:01] "GET /logone?user=9122&serial=18&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 8105)
+GET /logone?user=9122&serial=18&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=18&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:21:01] "GET /logone?user=9124&serial=17&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 24855)
+GET /logone?user=9124&serial=17&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=17&temperature=31.00
+192.168.1.82 - - [15/Aug/2016 10:21:03] "GET /logone?user=9122&serial=19&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 9666)
+GET /logone?user=9122&serial=19&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=19&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:21:03] "GET /logone?user=9124&serial=18&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 34132)
+GET /logone?user=9124&serial=18&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=18&temperature=31.00
+192.168.1.82 - - [15/Aug/2016 10:21:05] "GET /logone?user=9122&serial=20&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 31826)
+GET /logone?user=9122&serial=20&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=20&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:21:06] "GET /logone?user=9124&serial=19&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 19536)
+GET /logone?user=9124&serial=19&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=19&temperature=31.00
+192.168.1.82 - - [15/Aug/2016 10:21:08] "GET /logone?user=9122&serial=21&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 45758)
+GET /logone?user=9122&serial=21&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=21&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:21:08] "GET /logone?user=9124&serial=20&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 37229)
+GET /logone?user=9124&serial=20&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=20&temperature=31.00
+192.168.1.80 - - [15/Aug/2016 10:21:10] "GET /logone?user=9124&serial=21&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 13026)
+GET /logone?user=9124&serial=21&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=21&temperature=31.00
+192.168.1.81 - - [15/Aug/2016 10:21:47] "GET /logone?user=9123&serial=22&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 12098)
+GET /logone?user=9123&serial=22&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=22&temperature=30.5625
+192.168.1.39 - - [15/Aug/2016 10:21:48] "GET /logone?user=9121&serial=22&temperature=30.1875 HTTP/1.1" 200 -
+('192.168.1.39', 29908)
+GET /logone?user=9121&serial=22&temperature=30.1875 HTTP/1.1
+/logone?user=9121&serial=22&temperature=30.1875
+192.168.1.82 - - [15/Aug/2016 10:21:58] "GET /logone?user=9122&serial=22&temperature=30.2500 HTTP/1.1" 200 -
+('192.168.1.82', 6163)
+GET /logone?user=9122&serial=22&temperature=30.2500 HTTP/1.1
+/logone?user=9122&serial=22&temperature=30.2500
+192.168.1.80 - - [15/Aug/2016 10:22:00] "GET /logone?user=9124&serial=22&temperature=31.00 HTTP/1.1" 200 -
+('192.168.1.80', 22499)
+GET /logone?user=9124&serial=22&temperature=31.00 HTTP/1.1
+/logone?user=9124&serial=22&temperature=31.00
+192.168.1.81 - - [15/Aug/2016 10:22:37] "GET /logone?user=9123&serial=23&temperature=30.5625 HTTP/1.1" 200 -
+('192.168.1.81', 33389)
+GET /logone?user=9123&serial=23&temperature=30.5625 HTTP/1.1
+/logone?user=9123&serial=23&temperature=30.5625
+192.168.1.39 - - [15/Aug/2016 10:22:38] "GET /logone?user=9121&serial=23&temperature=30.1250 HTTP/1.1" 200 -
+('192.168.1.39', 39501)
+GET /logone?user=9121&serial=23&temperature=30.1250 HTTP/1.1
+/logone?user=9121&serial=23&temperature=30.1250
+192.168.1.82 - - [15/Aug/2016 10:22:48] "GET /logone?user=9122&serial=23&temperature=30.1875 HTTP/1.1" 200 -
+('192.168.1.82', 33964)
+GET /logone?user=9122&serial=23&temperature=30.1875 HTTP/1.1
+/logone?user=9122&serial=23&temperature=30.1875
+192.168.1.80 - - [15/Aug/2016 10:22:50] "GET /logone?user=9124&serial=23&temperature=30.9375 HTTP/1.1" 200 -
+('192.168.1.80', 1985)
+GET /logone?user=9124&serial=23&temperature=30.9375 HTTP/1.1
+/logone?user=9124&serial=23&temperature=30.9375
