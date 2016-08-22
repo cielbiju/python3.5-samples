@@ -6,7 +6,6 @@ conn.request("GET", "/wid/queryDFSRSS.jsp?zone=1144060000")
 
 r = conn.getresponse()
 data = str(r.read())
-
 print ("status=", r.status, ", length=", len(data), " bytes")
 
 pat = re.compile(r"<tm>(\d*)<\/tm>")
