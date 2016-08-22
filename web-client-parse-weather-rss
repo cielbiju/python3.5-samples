@@ -1,22 +1,16 @@
-# For installing usllib3, on my Windows PC, I did the followings:
-# C\> {python  설치위치}\scripts\easy_install-3.5 urllib3
-
-import urllib3
+import http.client
 import re
+ 
+conn = http.client.HTTPConnection("www.kma.go.kr", 80)
+conn.request("GET", "/wid/queryDFSRSS.jsp?zone=1144060000")
 
-http = urllib3.PoolManager()
-#서강대 인근 동네예보 RSS
-url = "http://www.kma.go.kr/wid/queryDFSRSS.jsp?zone=1144060000"
+r = conn.getresponse()
+data = str(r.read())
 
-r = http.request('GET', url)
-
-print("GET ", url)
-print ("status=", r.status, ", length=", len(r.data), " bytes")
-
-#
+print ("status=", r.status, ", length=", len(data), " bytes")
 
 pat = re.compile(r"<tm>(\d*)<\/tm>")
-m = pat.search(str(r.data))
+m = pat.search(str(data))
 if m:
     dd = m.group(1)
     d2 = dd[0:4]+"-"+dd[4:6]+"-"+dd[6:8]+" "+dd[8:10]+":"+dd[10:12]
@@ -24,7 +18,7 @@ else:
     dd = "no data"
 
 pat = re.compile(r"<hour>(\d*)<\/hour>\\n\s*<day>(\d*)<\/day>\\n\s*<temp>([-\.\d]*)<\/temp>")
-m = pat.search(str(r.data))
+m = pat.search(str(data))
 if not m:
     print("no data")
 else:
