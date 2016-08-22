@@ -1,8 +1,14 @@
 import http.client
 import re
- 
-conn = http.client.HTTPConnection("www.kma.go.kr", 80)
-conn.request("GET", "/wid/queryDFSRSS.jsp?zone=1144060000")
+
+host = "www.kma.go.kr"
+path = "/wid/queryDFSRSS.jsp?zone=1144060000"
+#Interactive하게 웹주소를 받을 수도 있겠습니다.
+#host = input("host address? ")
+#path = input("path? ")
+
+conn = http.client.HTTPConnection(host, 80)
+conn.request("GET", path)
 
 r = conn.getresponse()
 data = str(r.read())
