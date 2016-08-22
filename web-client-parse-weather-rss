@@ -1,5 +1,6 @@
-# For installing usllib3, I did the followings:
-# > $python\scripts\easy_install-3.5 urllib3
+# For installing usllib3, on my Windows PC, I did the followings:
+# C\> {python  설치위치}\scripts\easy_install-3.5 urllib3
+
 import urllib3
 import re
 
