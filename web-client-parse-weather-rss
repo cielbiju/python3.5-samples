@@ -1,18 +1,9 @@
-import http.client
+import datetime, time
+import urllib.request
 import re
 
-host = "www.kma.go.kr"
-path = "/wid/queryDFSRSS.jsp?zone=1144060000"
-#Interactive하게 웹주소를 받을 수도 있겠습니다.
-#host = input("host address? ")
-#path = input("path? ")
-
-conn = http.client.HTTPConnection(host, 80)
-conn.request("GET", path)
-
-r = conn.getresponse()
-data = str(r.read())
-print ("status=", r.status, ", length=", len(data), " bytes")
+f = urllib.request.urlopen('http://www.kma.go.kr/wid/queryDFSRSS.jsp?zone=1144060000')
+data = str(f.read())
 
 pat = re.compile(r"<tm>(\d*)<\/tm>")
 m = pat.search(str(data))
@@ -32,3 +23,4 @@ else:
 
     print("현재시간은 ", d2)
     print(hh, "시의 예측온도는 ", temp)
+
