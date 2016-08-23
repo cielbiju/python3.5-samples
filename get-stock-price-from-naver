@@ -1,0 +1,18 @@
+import http.client
+import datetime, time
+
+host = "finance.naver.com"
+path = "/item/frgn.nhn?code=005930"
+
+conn = http.client.HTTPConnection(host, 80)
+conn.request("GET", path)
+
+r = conn.getresponse()
+data = r.read().decode('euc-kr', 'ignore')
+print ("status=", r.status, ", length=", len(data), " bytes")
+
+i = data.find("<dd>현재가 ")
+if i > 0:
+    line = data[i: i+100]
+    line = line.split(" ")
+    print(datetime.date.today(), "삼성전자 주식", line[1])
