@@ -1,14 +1,8 @@
-import http.client
 import datetime, time
+import urllib.request
 
-host = "finance.naver.com"
-path = "/item/frgn.nhn?code=005930"
-
-conn = http.client.HTTPConnection(host, 80)
-conn.request("GET", path)
-
-r = conn.getresponse()
-data = r.read().decode('euc-kr', 'ignore')
+f = urllib.request.urlopen('http://finance.naver.com//item/frgn.nhn?code=005930')
+data = f.read().decode('euc-kr')
 
 i = data.find("<dd>현재가 ")
 if i > 0:
@@ -17,3 +11,5 @@ if i > 0:
     print(datetime.date.today(), "삼성전자 주식", line[1])
 else:
     print(r.status, "got", len(data), "bytes")
+
+
